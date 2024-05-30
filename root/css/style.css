@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+.main {
+    min-height: 100vh;
+    background-image: url(../imgs/fundo.png);
+    background-repeat: repeat;
+    background-size: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .text {
+    margin-right: 70px;
+}
+
+.main .text h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+    width: 278x;
+    margin-bottom: 11px;
+}
+
+.main .text p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    width: 300px;
+}
+
+.main .form {
+    background-color: #fff;
+    width: 340px;
+    height: 378px;
+}
+
+.main .form p.camposObg {
+    margin-top: 16px;
+    font-size: 1.5rem;
+}
+
+.main .form #botao {
+    width: 298.013px;
+    height: 41.129px;
+    background-color: #3CCC87;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    margin-top: 11px;
+}
+
+.main .form button:hover {
+    cursor: pointer;
+}
+
+.main .form input {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #A8A8A8;
+    width: 298.013px;
+    height: 35.11px;
+    padding: 9px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #FFF;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.02rem;
+    
+}
+
+.main .form textarea {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #A8A8A8;
+    width: 298.013px;
+    height: 100px;
+    padding: 9px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03rem;
+}
+
+.main .form input.incompleto {
+    border: 1px solid #F52E2E;
+}
+
+.main .form p.obrigatorio {
+    color: #F52E2E;
+    font-family: Roboto;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+}
+
+.main .form .conteudoFormulario {
+    height: 100%;
+    width: 100%;
+    padding-left: 22px;
+    margin-top: 20px;
+}
+
+.main .form input.inputMensagem {
+    height: 100px;
+    max-width: 100%;
+    word-wrap: break-word;
+    text-align: left;
+    vertical-align: top;
+}
+
+.main .form input.inputNome {
+    margin-top: 0;
+}
+
+.main .form input.inputMensagem::placeholder {
+    transform: translateY(-30px);
+}
+
+.hide{
+    display: none;
+}
+
+.main .form input.preenchido{
+    border: 1.5px solid #00C22B;
+}
+
+.main .form textarea.preenchido{
+    border: 1.5px solid #00C22B;
+}
+
+textarea{
+    resize: none;
+}
